@@ -1,23 +1,24 @@
 {
   "name": "gulp-copycat",
   "version": "0.0.3",
-  "description": "gulp plugin - copy blocks of content from one file to another",
+  "description": "Copy blocks of content from one file to another",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/magnushenning/copycat"
+    "url": "entro-js/gulp-copycat"
   },
   "author": "Magnus Henning",
   "contributors": [{
     "name" : "Øyvind Mosti"
   }],
-  "scripts": {
-    "test": "mocha"
-  },
   "engines": {
     "node": ">=0.10.0"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
+    "gulpplugin",
     "copycat"
   ],
   "dependencies": {
