@@ -152,8 +152,7 @@ Result (/build/result.html):
 
     <h3>
         with Bar
-    </h3>
-    <h1></h1>
+    </h3>    
 </div>
 ```
 #### Example 2: Add source tags for javascript comment syntax: 
@@ -214,8 +213,11 @@ Result (/build/index.html):
 
 ## Changelog
 
+### 0.0.4
+> Fixed issue where destination file would become one character less in length
+
 ### 0.0.3
-> Add README
+> Added README
 
 ### 0.0.2
 > Initial version added to GitHub

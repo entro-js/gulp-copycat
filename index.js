@@ -286,7 +286,7 @@ function getTags(file, tagPatterns) {
 
 // Replace filecontent with value by indexes
 function replace(value, filecontent, indexStart, indexEnd) {
-  return filecontent.substring(0, indexStart) + value + filecontent.substring(indexEnd, filecontent.length - 1);
+  return filecontent.substring(0, indexStart) + value + filecontent.substring(indexEnd, filecontent.length);
 }
 
 // Get value by name
